@@ -37,8 +37,8 @@ for i in paragraph:
 driver.quit()
 
 
-my_token = "1205161681:AAHhCNw8IhHSVTFDZOIee0HXyhKuU-1w94U"
-chat_id = "713241830"
+my_token = ""
+chat_id = ""
 
 def send_telegram_message(msg, chat_id=chat_id, token=my_token):
     """
